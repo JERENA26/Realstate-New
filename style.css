@@ -1,0 +1,93 @@
+body{
+    background-color:rgba(255, 255, 255, 0.26) ;
+    font-family: Roboto,sans-serif;
+    
+}
+h1,h2,h3{
+    font-weight: 300;
+}
+.navbar-nav .size{
+    font-weight: 400 !important;
+    color: white !important;
+    
+}
+.navbar{
+    opacity: 0.5;
+}
+.navbar .text-white{
+    color: white;
+}
+.info h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sale .card-description {
+    margin-bottom: 20px;
+}
+.find{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.253)),url(/kevin-olson-INREcykjYqc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+
+}
+.find .row{
+    height: 20rem;
+}
+.find h3{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.find p{
+    font-weight:450;
+    font-size: 1.2rem;
+}
+.text span{
+    color: rgba(0, 0, 255, 0.637);
+}
+.last h3{
+    font-size: 2rem;
+}
+.last h4{
+    font-weight: 300;
+}
+
+.last h4::after{
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 0.2rem;
+    background-color:rgba(255, 230, 0, 0.932) ;
+    margin-top: 10px;
+}
+.last .carousel-item{
+    background-color:rgba(255, 230, 0, 0.932) ;
+}
+.last .carousel-item p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    position: s;
+    line-height: 3rem;
+}
+
+.last .carousel-item span{
+    font-size: 1.2rem;
+    font-weight: 450;
+
+}
+@media(max-width:768px){
+    .info img{
+        margin-top: 60px;
+    }
+    .last img{
+        margin-bottom: 30px;
+    }
+    .last .btn{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:991px){
+    .header {
+        position: relative;
+    }
+}
